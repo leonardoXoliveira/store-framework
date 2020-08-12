@@ -2,3 +2,8 @@
   font-size: 16px;
   font-weight: normal;
 }
+
+.heading-level-1,
+.heading-level-3 {
+  font-weight: bold;
+}
