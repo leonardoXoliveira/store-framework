@@ -1,0 +1,21 @@
+{
+  "store.custom#landing": {
+    "blocks": ["image#landing-banner", "search-result-layout.customQuery"]
+  },
+  "image#landing-banner": {
+    "props": {
+      "src": "https://cdn.wallpapersafari.com/67/76/oDeqK4.jpg",
+      "minWidth": "100%"
+    }
+  },
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Blue Top Retro Camera"
+      }
+    }
+  }
+}
