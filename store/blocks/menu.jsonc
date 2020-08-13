@@ -1,5 +1,5 @@
 {
-  "vtex.menu@2.x:menu#departments": {
+  "vtex.menu@2.x:menu#categories": {
     "props": {
       "orientation": "horizontal"
     },
