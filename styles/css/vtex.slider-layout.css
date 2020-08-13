@@ -1,0 +1,8 @@
+.sliderLayoutContainer {
+  max-width: 1240px;
+  margin: 32px auto 0;
+}
+
+.paginationDotsContainer {
+  bottom: -16px;
+}

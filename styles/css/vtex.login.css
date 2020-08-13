@@ -1,0 +1,9 @@
+.container :global(.mr3.nl3.flex.items-center) {
+  margin-right: 0;
+}
+
+.inputContainerAccessCode :global(input),
+.inputContainerPassword :global(input),
+.inputContainerEmail :global(input) {
+  font-size: 12px;
+}

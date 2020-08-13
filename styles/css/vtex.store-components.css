@@ -1,7 +1,31 @@
+.logoContainer {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 1026px) {
+  .searchBarContainer {
+    max-width: unset;
+  }
+}
+
+@media screen and (min-width: 1026px) {
+  .searchBarContainer {
+    margin-right: 8px;
+  }
+}
+
 .infoCardContainer {
   max-width: 1260px;
   margin: 0 auto;
   padding: 0;
+}
+
+.infoCardContainer--vintage {
+  background-color: #edcfd1;
+}
+
+.infoCardContainer--metal {
+  background-color: #e1e1e1;
 }
 
 .infoCardHeadline {
@@ -23,12 +47,4 @@
   border: transparent;
   color: gray;
   background-color: white;
-}
-
-.infoCardContainer--vintage {
-  background-color: #edcfd1;
-}
-
-.infoCardContainer--metal {
-  background-color: #e1e1e1;
 }

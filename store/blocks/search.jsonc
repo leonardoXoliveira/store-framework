@@ -2,6 +2,7 @@
   "store.search": {
     "blocks": ["search-result-layout"]
   },
+
   "search-result-layout": {
     "blocks": [
       "search-not-found-layout",
@@ -9,6 +10,7 @@
       "search-result-layout.desktop"
     ]
   },
+
   "search-result-layout.desktop": {
     "children": [
       "breadcrumb.search",
@@ -22,6 +24,7 @@
   "flex-layout.row#top": {
     "children": ["total-products.v2", "order-by.v2"]
   },
+
   "flex-layout.row#results": {
     "children": ["flex-layout.col#filter", "flex-layout.col#search"]
   },
@@ -29,6 +32,7 @@
     "props": {
       "width": "20%"
     },
+
     "children": ["filter-navigator.v3"]
   },
   "flex-layout.col#search": {
